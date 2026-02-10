@@ -1,0 +1,69 @@
+body{
+    background-color: aqua;
+}
+
+.expenses-form{
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(25, 25, 29);
+    color: aquamarine;
+    border: 3px solid;
+    border-radius: 10px;
+    position: center;
+
+}
+/*form inputs*/
+#amount{
+    background-color: aqua;
+    
+}
+#category{
+    background-color: aqua;
+}
+#description{
+    background-color: rgb(195, 213, 213);
+    color: black;
+}
+#date{
+    background-color: bisque;
+}
+.expense-list{
+    position: center;
+    margin: auto;
+}
+
+/*table*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #1a27d9; /* 👈 this adds lines everywhere */
+  text-align: left;
+}
+
+thead th {
+  background-color: #1574c2;
+}
+
+ 
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 400px; /* forces scroll on small screens */
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
